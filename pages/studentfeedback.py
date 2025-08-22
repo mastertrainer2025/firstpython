@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(page_title="Student Feedback Form",page_icon=":smiley:", layout="wide")   
+
 # App title and description
 st.title("Student Feedback Form")
 st.write("Please provide your feedback for the class session.")
